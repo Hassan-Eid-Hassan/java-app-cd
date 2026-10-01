@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
     name: java-app
     namespace: java-ns
-    lables:
+    labels:
         app: java-app
 spec:
   replicas: 2
